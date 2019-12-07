@@ -22,8 +22,7 @@ public class Main {
             System.out.print("Введите ваш возраст: ");
             user.setAge(number.nextInt());
             try {
-                System.out.println(user.getName());
-                System.out.println(user.getAge());
+                System.out.println("Ваше имя: " + user.getName() + " Ваш возраст: " + user.getAge());
             } catch (Exception e) {
                 e.getMessage();
                 break;
